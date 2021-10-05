@@ -1,0 +1,124 @@
+  html , body{
+                background-color: black;
+                margin: 0px;
+                padding: 0px;
+                scroll-behavior: smooth;
+                color: rgb(157,24,139);
+            }
+
+            .colored-font{
+              font-size: 5vw;
+              background: -webkit-linear-gradient(rgb(157,24,139), rgb(193,4,102) ,rgb(20,82,163));
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              text-align: center;
+            }
+              .navbar{
+                  background: linear-gradient(-65deg,rgb(20,82,163),rgb(157,24,139),rgb(193,4,102),rgb(190,100,11));
+                  background-size: 400%;
+                  margin-bottom: 0px;
+                  animation: myanim 8s infinite;
+              }
+
+              @keyframes myanim{
+                  0%{
+                      background-position: left;
+                  }
+                  40%{
+                      background-position: right;
+                  }
+                  70%{
+                      background-position: center;
+                  }
+                }
+                .container {
+                  margin-bottom: 100px;
+                  justify-content: center;
+                }
+
+                .pic1{
+                  border: 1px solid white;
+                  justify-content: center;
+                  margin: .5vw;
+                }
+                #myCarousel{
+                  margin-bottom: 100px;
+                }
+                .item{
+                  position: relative;
+                }
+                .heading{
+                  position: absolute;
+                  margin: 4vw 8vw;
+                }
+                .heading h1{
+                  color: white;
+                  font-size: 5vw;
+                }
+                .contact{
+                 margin: 4vw 10vw;
+                 font-size: 1.7vw;
+                }
+
+                .desc{
+                  margin: 1vw;
+                  font-size: 2vw;
+                }
+                .mytext{
+                  font-size: 2.3vw;
+                  text-align: center;
+                }
+
+                .mybtn{
+                  font-size: 1.7vw;
+                }
+                .mybtn:hover{
+                  background: linear-gradient(-65deg,rgb(20,82,163),rgb(157,24,139),rgb(193,4,102),rgb(190,100,11));
+                  background-size: 400%;
+                  animation: myanim 4s infinite;
+                  color: white;               }
+                }
+                .col-centered{
+                  float: none;
+                  margin: 0 auto;
+                }
+                #signin{
+                  background: linear-gradient(-65deg,rgb(20,82,163),rgb(157,24,139),rgb(193,4,102),rgb(190,100,11));
+                  background-size: 400%;
+                  animation: myanim 4s infinite;
+                  height: 150 px;
+                }
+                .form-text{
+                  border: none;
+                  border-bottom: 1px solid rgb(193,4,102);
+                  color: rgb(193,4,102);
+                }
+                .form-text:focus{
+                  outline: none;
+                }
+                .footer{
+                  background: linear-gradient(-65deg,rgb(20,82,163),rgb(157,24,139),rgb(193,4,102),rgb(190,100,11));
+                  background-size: 400%;
+                  animation: myanim 4s infinite;
+                }
+                .offer{
+                  font-size: .7vw;
+                  margin: 3vw;
+                  border-radius: 1.5vw;
+                  box-shadow: inset 0px 0px 25px 0px rgb(157,24,139),
+                              inset 0 0px 15px 0px rgb(193,4,102),
+                              inset 0 0px 5px 0px rgb(190,100,11);
+
+                }
+                .header{
+                  border-radius: 1vw;
+                  text-align: center;
+                  background: linear-gradient(-65deg,rgb(20,82,163),rgb(157,24,139),rgb(193,4,102));
+                  color: white;
+                  letter-spacing: 1px;
+                  display: inline-table;
+
+                }
+                h2{
+                  font-size: 2.5vw;
+                }
